@@ -1,4 +1,4 @@
-const uri = "mongodb://mongo1:27017/?replicaSet=rs0";
+const uri = "mongodb://172.30.152.62:27017/?replicaSet=rs0";
 const { MongoClient } = require('mongodb');
 
 const client = new MongoClient(uri);
